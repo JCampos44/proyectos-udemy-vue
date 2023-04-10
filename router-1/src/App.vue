@@ -3,9 +3,9 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <nav class="navbar bg-body-tertiary">
+  <nav class="navbar bg-dark">
     <div class="container">
-      <RouterLink class="navbar-brand" to="/">
+      <RouterLink class="navbar-brand text-white" to="/">
         <img src="@/assets/logo.svg" width="30" height="24">
         PokeAPI
       </RouterLink>
@@ -17,7 +17,7 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
   </nav>
 
-  <div class="container">
+  <div class="container text-center">
     <RouterView />
   </div>
 </template>
